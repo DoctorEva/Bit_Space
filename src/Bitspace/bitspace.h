@@ -12,7 +12,7 @@ void BS_free( bitspace bs );
 // bs_operations.c
 char BS_get   ( int bit, bitspace bs );
 void BS_set   ( int bit, bitspace bs );
-void BS_clear ( int bit, bitspace bs );
+void BS_unset ( int bit, bitspace bs );
 void BS_flip  ( int bit, bitspace bs );
 
 void BS_dump( size_t size, bitspace bs );

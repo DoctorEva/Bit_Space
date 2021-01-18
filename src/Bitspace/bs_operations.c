@@ -41,7 +41,7 @@ void BS_set( int bit, bitspace bs )
   set( o );
 }
 
-void BS_clear( int bit, bitspace bs )
+void BS_unset( int bit, bitspace bs )
 {
   temp o = offset( bit, bs );
   clr( o );
